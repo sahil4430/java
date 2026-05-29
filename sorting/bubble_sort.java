@@ -16,7 +16,6 @@ public class bubble_sort {
                 break;
             }
         }
-
         for ( int num : arr){
             System.out.print(num+" ");
         }
