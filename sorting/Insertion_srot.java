@@ -1,11 +1,11 @@
 package sorting;
 
-public class Insertion_srot {
-    public static void main ( String arg[]){
+public class Insertion_Srot {
+    public static void main ( String [] arg){
         int[] arr = {13, 46, 24, 52, 20, 9};
-        INsertionsort(arr);
-    };
-    public static void INsertionsort(int[] arr){
+        insertionSort(arr);
+    }
+    public static void insertionSort(int[] arr){
         int n = arr.length;
         for ( int i =1; i<n ; i++){
             int key = arr[i];
